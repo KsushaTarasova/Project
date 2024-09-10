@@ -6,6 +6,10 @@ public class Programmer extends Employee{
         super(name, salary);
         this.level = level;
     }
+    public Programmer(){
+        super();
+        level = "kakashka";
+    }
 
     @Override
     public void add0(int amount) {

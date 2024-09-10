@@ -8,6 +8,10 @@ public abstract class Employee implements Addable{
         this.name = name;
         this.salary = salary;
     }
+    public Employee(){
+        this.name = "pook";
+        this.salary = 1000000000;
+    }
 
     public abstract void work();
 }

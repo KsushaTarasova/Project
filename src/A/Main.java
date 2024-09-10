@@ -2,7 +2,7 @@ package A;
 
 public class Main {
     public static void main(String[] args) {
-        Triangle triangle = new Triangle(2, 4, 3);
+        Triangle triangle = new Triangle();
         triangle.print();
         System.out.println("-------------");
         Rectangle rectangle = new Rectangle(5, 10);
@@ -18,7 +18,7 @@ public class Main {
         programmer.print();
         System.out.println("-------------");
         Bike bike = new Bike("розовый", "Barbie");
-        bike.start();
+        bike.start(
         bike.move();
         bike.stop();
         bike.print();

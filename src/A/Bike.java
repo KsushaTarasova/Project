@@ -27,4 +27,7 @@ public class Bike extends Vehicle{
     public void print() {
         System.out.println("Велосипед: цвет " + color + ", модель " + model);
     }
+    public void bipBip(){
+        System.out.println("Велосипед сигналит, уступи дорогу");
+    }
 }

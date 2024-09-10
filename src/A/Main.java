@@ -22,5 +22,6 @@ public class Main {
         bike.move();
         bike.stop();
         bike.print();
+        System.out.println("Изменение 1");
     }
 }

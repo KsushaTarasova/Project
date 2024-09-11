@@ -16,12 +16,12 @@ public class Main {
         programmer.work();
         programmer.add0(3);
         programmer.print();
+
         System.out.println("-------------");
         Bike bike = new Bike("розовый", "Barbie");
-        bike.start(
+        bike.start();
         bike.move();
         bike.stop();
         bike.print();
-        System.out.println("Изменение 1");
     }
 }

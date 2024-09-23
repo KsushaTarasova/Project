@@ -1,5 +1,7 @@
 package A;
 
+// Клубника лучшая, а Ксюша дуууууууууууууууууууууууууууууууууууууууууууууууууууууууудудуд
+
 public class Main {
     public static void main(String[] args) {
         Triangle triangle = new Triangle();

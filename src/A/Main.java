@@ -1,5 +1,7 @@
 package A;
 
+// Что-то не так!
+
 public class Main {
     public static void main(String[] args) {
         Triangle triangle = new Triangle();
